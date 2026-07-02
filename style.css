@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* 3D Viewer */
+.viewer {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* 🔥 AR BUTTON STYLING */
+model-viewer::part(ar-button) {
+  width: 90px;
+  height: 90px;
+  transform: scale(1.6);
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* optional: Loading Button etwas schöner */
+model-viewer::part(default-ar-button) {
+  background: white;
+}
